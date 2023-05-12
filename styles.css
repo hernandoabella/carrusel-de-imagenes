@@ -32,13 +32,12 @@ img {
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 10;
   user-select: none;
 }
 
 .next {
-  right: 10px;
-  border-radius: 3px 0 0 3px;
+  right: 0px;
 }
 
 .prev:hover,
@@ -53,15 +52,6 @@ img {
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -73,7 +63,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 90vw;
+    width: 90%;
     max-width: 90%;
   }
 }
