@@ -19,6 +19,5 @@ function mostrarSlides(n) {
   }
   
   slides[indice-1].style.display = "block";
-  
 }
 
