@@ -58,10 +58,3 @@ img {
     opacity: 1;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .container {
-    width: 90%;
-    max-width: 90%;
-  }
-}
