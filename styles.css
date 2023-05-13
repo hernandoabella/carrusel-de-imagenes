@@ -22,3 +22,30 @@ img {
     max-width: 90%;
   }
 }
+
+.prev,
+.next {
+  position: absolute;
+  background: #000;
+  opacity: 0.5;
+  color: #fff;
+  padding: 10px;
+  top: 45%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.prev:hover,
+.next:hover {
+  opacity: 1;
+}
+
+.prev {
+  left: 0;
+  border-radius: 0% 20% 20% 0%;
+}
+
+.next {
+  right: 0;
+  border-radius: 20% 0% 0% 20%;
+}
