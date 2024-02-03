@@ -1,1 +1,1 @@
-# deslizador-de-imagenes
+# image-slider
